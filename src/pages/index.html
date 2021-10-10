@@ -19,7 +19,11 @@
     <main>
       <section class="hero">
         <div class="hero__image-container">
-          <img src="../assets/img/pawel.jpg" class="hero__image" alt="Pawel awatar" />
+          <img
+            src="../assets/img/pawel.jpg"
+            class="hero__image"
+            alt="Pawel awatar"
+          />
           <span class="hero__hello">Cześć! 🖐</span>
         </div>
         <div class="hero__description">
@@ -29,8 +33,9 @@
           </h1>
           <p class="hero__paragraph">
             Możesz być zainteresowany moimi
-            <a class="hero__link" href="#skills">umiejętnościami.</a> Moje ostatnie prace
-            znajdziesz pod frazą <a class="hero__link" href="#projects">moje projekty.</a> Szukam
+            <a class="hero__link" href="#skills">umiejętnościami.</a> Moje
+            ostatnie prace znajdziesz pod frazą
+            <a class="hero__link" href="#projects">moje projekty.</a> Szukam
             pierwszej pracy jako frontend developer. Mam kilka miesięcy
             komercyjnego doświadczenia w programowaniu w językach Java/Groovy -
             jako młodszy programista Java. Na swoim koncie mam także przygodę z
@@ -59,9 +64,7 @@
             <li class="skills-list__item">JS: DOM manipulations</li>
             <li class="skills-list__item">Forms</li>
             <li class="skills-list__item">SASS</li>
-            <li class="skills-list__item">
-              GIMP / Affinity Designer
-            </li>
+            <li class="skills-list__item">GIMP / Affinity Designer</li>
             <li class="skills-list__item">Jira / Trello</li>
           </ul>
         </article>
@@ -99,24 +102,36 @@
         </p>
         <div class="projects-grid">
           <article class="project">
-            <h3 class="project__title">
-              <span>projekt:</span><span>business-card</span>
-            </h3>
-            <p><span>opis:</span><span>moja wizytówka</span></p>
-            <p>
-              <span>demo:</span
-              ><span
-                >&lt;<a href="#" title="business-card - demo">zobacz_tutaj</a
-                >&gt;</span
-              >
-            </p>
-            <p>
-              <span>github:</span
-              ><span
-                >&lt;<a href="#" title="business-card - code">kod_źródłowy</a
-                >&gt;</span
-              >
-            </p>
+            <div class="project__window">
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+            </div>
+            <div class="project__content">
+              <img src="../assets/img/github.svg" alt="" />
+              <h3 class="project__grid project__title">
+                <span class="project__label">projekt:</span
+                ><span>business-card</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">opis:</span
+                ><span>moja wizytówka</span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span
+                ><span
+                  >&lt;<a class="project__link" href="#" title="business-card - demo">zobacz_tutaj</a
+                  >&gt;</span
+                >
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span
+                ><span
+                  >&lt;<a class="project__link" href="#" title="business-card - code">kod_źródłowy</a
+                  >&gt;</span
+                >
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -129,19 +144,24 @@
         <div class="contact__links">
           <ul class="socials">
             <li class="socials__item">
-              <a class="socials__link" href="https://github.com/pawel-jezior"
-                >
-                <!-- uzupelnic --><img class="socials__icon" alt="Paweł Jezior - github"
+              <a class="socials__link" href="https://github.com/pawel-jezior">
+                <!-- uzupelnic --><img
+                  class="socials__icon"
+                  alt="Paweł Jezior - github"
               /></a>
             </li>
             <li class="socials__item">
               <a class="socials__link" href="#"
-                ><!-- uzupelnic --><img class="socials__icon" alt="Paweł Jezior - instagram"
+                ><!-- uzupelnic --><img
+                  class="socials__icon"
+                  alt="Paweł Jezior - instagram"
               /></a>
             </li>
             <li class="socials__item">
               <a class="socials__link" href="#"
-                ><!-- uzupelnic --><img class="socials__icon" alt="Paweł Jezior - facebook"
+                ><!-- uzupelnic --><img
+                  class="socials__icon"
+                  alt="Paweł Jezior - facebook"
               /></a>
             </li>
           </ul>
