@@ -4,6 +4,9 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  @media (min-width: $desktop) {
+    max-width: 100%;
+  }
   &__bubble {
     position: absolute;
     left: calc(50% + 90px);
@@ -22,6 +25,10 @@
   }
   &__description {
     text-align: center;
+    @media (min-width: $desktop) {
+      max-width: 786px;
+      margin: 0 auto;
+    }
   }
   &__header {
     font-size: 26px;
