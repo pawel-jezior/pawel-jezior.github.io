@@ -2,7 +2,7 @@
 
 # PAWEL JEZIOR - JUNIOR FRONTEND DEVELOPER
 
-My simple portoflio website.
+My simple portfolio website.
 
 ## TOOLS
 
