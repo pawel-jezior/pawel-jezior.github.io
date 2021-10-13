@@ -1,4 +1,4 @@
-![cover](https://pawel-jezior.github.io/og-image.png)
+![cover](https://github.com/pawel-jezior/pawel-jezior.github.io/blob/source/public/img/og-image.png)
 
 # PAWEL JEZIOR - JUNIOR FRONTEND DEVELOPER
 
@@ -9,7 +9,6 @@ My simple portoflio website.
 - WTF Webpack starterkit
 - HTML + CSS + JS
 - GitHub API
-
 ## AVAILABLE SCRIPTS
 
 `npm run start` - runs development mode
