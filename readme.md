@@ -1,4 +1,4 @@
-![cover](https://pawel-jezior.github.io/og_image.png)
+![cover](https://pawel-jezior.github.io/og-image.png)
 
 # PAWEL JEZIOR - JUNIOR FRONTEND DEVELOPER
 
