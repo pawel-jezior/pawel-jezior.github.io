@@ -1,13 +1,14 @@
 .skills {
   background: $blue;
   color: #fff;
-  padding: 64px 16px 88px;
+  padding: 64px 16px 64px;
   &__columns {
     @media (min-width: $desktop){
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       max-width: 1184px;
       margin: 0 auto;
+      padding-bottom: 72px;
     }
   }
   &__header {
@@ -15,9 +16,11 @@
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    margin: 0 0 32px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;
+      margin-top: 42px;
     }
   }
 }

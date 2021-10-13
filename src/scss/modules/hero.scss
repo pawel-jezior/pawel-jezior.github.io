@@ -1,5 +1,5 @@
 .hero {
-  padding: 74px 16px 88px;
+  padding: 74px 16px 64px;
   @media (min-width: $tablet) {
     max-width: 768px;
     margin: 0 auto;
@@ -80,6 +80,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    @media (min-width: $desktop) {
+      margin-bottom: 48px;
+    }
   }
   &__link {
     font-weight: bold;
@@ -95,9 +98,13 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
+      margin-bottom: 68px;
     }
   }
   &__special {
     color: $blue;
+    @media (min-width: 630px) {
+      white-space: nowrap;
+    }
   }
 }

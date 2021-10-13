@@ -1,5 +1,9 @@
 .projects {
   padding: 64px 16px 88px;
+  @media (min-width: $desktop){
+    padding: 64px 16px 176px;
+
+  }
   &__description {
     font-weight: 300;
     font-size: 16px;
@@ -10,7 +14,7 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
-      margin-bottom: 128px;
+      margin-bottom: 90px;
     }
   }
   &__header {
@@ -18,6 +22,7 @@
     line-height: 48px;
     color: $textDark;
     text-align: center;
+    margin: 0 0 40px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;
@@ -50,7 +55,7 @@
   &__content {
     padding: 24px 32px;
     @media (min-width: $desktop) {
-      padding: 24px 48px 82px;
+      padding: 18px 48px 58px;
     }
   }
   &__grid {
