@@ -46,16 +46,6 @@
       font-weight: bold;
       font-size: 32px;
       position: relative;
-      &:after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 32px;
-        display: block;
-        width: 17.42px;
-        height: 22.66px;
-        background: url("../assets/img/speech.svg");
-      }
     }
   }
   &__image {
