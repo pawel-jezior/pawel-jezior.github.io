@@ -35,29 +35,16 @@
       line-height: 40px;
     }
   }
-  &__hello {
-    display: none;
-    @media (min-width: $desktop) {
-      display: block;
-      background: $blue;
-      color: #fff;
-      padding: 16px 19px;
-      border-radius: 16px;
-      font-weight: bold;
-      font-size: 32px;
-      position: relative;
-    }
-  }
   &__image {
     box-sizing: content-box;
     width: 96px;
     height: 96px;
-    border: 16px solid #f6f9fd;
-    border-radius: 50%;
+    // border: 16px solid #f6f9fd;
+    // border-radius: 50%;
     @media (min-width: $desktop) {
       width: 178px;
       height: 178px;
-      border: 24px solid #f6f9fd;
+      // border: 24px solid #f6f9fd;
     }
   }
   &__image-container {
