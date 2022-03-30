@@ -1,6 +1,6 @@
 .skills {
-  background: $internationalOrangeGoldenGateBridge;
-  color: $cultured;
+  background: $blue;
+  color: $white;
   padding: 64px 16px 64px;
   &__columns {
     @media (min-width: $desktop){
@@ -29,7 +29,7 @@
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: $cultured;
+  color: $white;
   width: 288px;
   margin: 0 auto;
   list-style-type: none;

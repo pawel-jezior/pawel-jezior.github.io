@@ -1,5 +1,5 @@
 .contact {
-  background: $internationalOrangeGoldenGateBridgeBright;
+  background: $blueBright;
   padding: 64px 16px 88px;
   &__description {
     font-style: normal;
@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    color: $raisinBlack;
+    color: $white;
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
@@ -16,7 +16,7 @@
   &__header {
     font-size: 36px;
     line-height: 48px;
-    color: $raisinBlack;
+    color: $white;
     text-align: center;
     margin: 0 0 24px;
     @media (min-width: $desktop) {
@@ -37,8 +37,8 @@
   }
   &__mail {
     border-radius: 64px;
-    color: $cultured;
-    background: $internationalOrangeGoldenGateBridge;
+    color: $white;
+    background: $blue;
     display: inline-block;
     padding: 4px 24px;
     font-weight: bold;
